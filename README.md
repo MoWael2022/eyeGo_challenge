@@ -61,6 +61,7 @@ This application follows a clean and modular structure to ensure scalability and
 - **Separation of Concerns**: UI, Business Logic, and Services are separated into different layers for clean code structure.
 - **Google Maps & Location Services**: Integrated using `google_maps_flutter` and `geolocator` packages to retrieve and show user location with weather overlays.
 - **API Handling**: REST APIs are used for weather data, and Firebase is used for authentication and backend services.
+- **Persistent Authentication**: Used SharedPreferences to store the user's login state locally, ensuring the user stays logged in across app restarts.
 - **Error Handling**: Implemented proper loading indicators, try-catch blocks, and fallback messages to ensure smooth UX.
 
 ---
